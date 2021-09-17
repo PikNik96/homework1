@@ -6,7 +6,7 @@ int main(int argc, char* argv[]) {
 	long int* a = (long int*)&b;
 	printf("double was 0x%lx\n", *(long*)&b);
 
-	*a = 1111111;
+	*a = 2222222;
 	printf("double now 0x%lx\n", *(long*)&b);
 
 
