@@ -14,5 +14,5 @@ int main(int argc, char* argv[]) {
 
 	printf("a = %p, &b = %p, b = %lf, *a = %ld\n", a, &b, b, *a);
 
-	return 0;
+	return 1;
 }
